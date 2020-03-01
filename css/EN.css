@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    direction: ltr;
+}
+.text-right{
+    text-align: left !important;
+}
+.text-left{
+    text-align: right !important;
+}
+.lang-top-head{
+    text-align: right;
+}
+.dropdown-menu{
+    text-align: left;
+}
+.on-slide1, .on-slide2, .on-slide3{
+    text-align: left;
+}
+.carousel-indicators li.active:after{
+    transform: translate(-7px, -7px);
+}
+.icons{
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 99;
+}
+.icons ul li{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 999;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card-header{
+    background-color: #9c9c9c;
+    background: linear-gradient(90deg, #446270 30%, rgba(255,153,0,.8) 60%);
+    color: #fff;
+}
+.modal-body .row .col-md-6 ul li, .modal-body .row .col-md-12 ul li, .modal-body .row .col-md-8 ul li{
+    text-align: left;
+}
+.close{
+    margin-left: -10px !important;
+}
+.testmonils{
+    background-image: url(../imgs/testmoilas-backENGLISH.png);
+}
+footer{
+    text-align: left;
+}
+.modal-body .row .col-md-6 h5{
+    text-align: left;
+}
